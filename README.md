@@ -1,11 +1,10 @@
-# ViajesChile
- # Prueba Viajes Chile
+# Prueba Viajes Chile
 
- ## Todo lo que sé, lo aplico aquí!
+## Todo lo que sé, lo aplico aquí!
 
- Proyecto digital de fin de módulo en mi desafío de vivir la máxima "Yo codeo, entonces vivo, feliz" (I code, then I live, happy!).
+Proyecto digital de fin de módulo en mi desafío de vivir la máxima "Yo codeo, entonces vivo, feliz" (I code, then I live, happy!).
 
- Trabajo realizadop em mayo de 2021.
+Trabajo realizadop em mayo de 2021.
 
- ## Desarrollado para
- BootCamp E-Comp 2021!
+## Desarrollado para
+BootCamp E-Comp 2021!
