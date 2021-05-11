@@ -1,0 +1,283 @@
+/* Para mobile devices */
+body, * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+header {
+    background-image: url('../img/carousel1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5rem;
+    margin-top: 0;
+    width: auto;
+    height: 800px;
+}
+
+.svg {
+    width: 30px;
+    height: 30px;
+    background: none;
+    
+}
+
+
+.navbar, #navbarNav, .navbar-collapse, li {
+    background: none;
+}
+
+
+.linea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.1px;
+    background: turquoise;
+}
+
+.linea2 {
+    display: inline-block;
+    width: 1110px;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+.linea3 {
+    display: inline-block;
+    width: 1110px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+.linea4 {
+    display: inline-block;
+    width: 1110px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+h4 {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 30px;   
+}
+
+
+h3 {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 36pt;
+    font-weight: 700;
+}
+
+h5 {
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 12pt;
+    font-weight: 500;
+    color: #373A3C;
+    margin-top: 30px;
+}
+
+.col1 {
+    color: red;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.col2 {
+    color:blue;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.col3 {
+    color: yellow;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.icon1 {
+text-align: center;
+color: white;
+background-color: #328998;
+margin-bottom: 10px;
+}
+
+.icon2 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.card-group {
+    padding: 0rem;
+    grid-column-gap: 20px;
+    border: 1px black;
+    margin: 0 30px;
+}
+
+
+.card-title {
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+}
+
+
+.card-text {
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+}
+
+img {
+
+}
+
+
+.card-img-top {
+    padding: 2px;
+}
+
+div div div ul li {
+    margin-top: 80px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+
+
+
+/* Atributos del carrusel de imágenes */
+#blogCarousel {
+    column-gap: 10px;
+    margin-bottom: 60px;
+}
+
+.carousel-indicators li {
+    border: 0;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: black;
+}
+
+
+.carousel-indicators {
+    margin-bottom: -3%;
+}
+
+
+.carousel-item img {
+    height: 200px;
+    width: auto;
+}
+
+
+
+.otrasfotos {
+    margin-bottom: 60px;
+}
+
+
+#rrss {
+    display: flex;
+    justify-content: center;
+}
+
+
+#rrss .flex-item {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 30%;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 30px;
+}
+
+
+.flex-item li i {
+    color: #373A3C;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #blogCarousel {
+        display: none;
+    }
+    header {
+        background-size: contain;
+        background-position: top;
+        margin-bottom: 0;
+    }
+    h3 {
+        margin-top: 0;
+    }
+    .col1 {
+        color: red;
+        text-align: justify;
+        margin: 30px;
+    }
+
+
+    .col3 {
+        color: yellow;
+        text-align: justify;
+        margin: 30px;
+    }
+
+    .col2 {
+        color:blue;
+        text-align: justify;
+        margin: 30px;
+    }
+}
