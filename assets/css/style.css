@@ -71,26 +71,13 @@ h4 {
 }
 
 
-.col1 {
+.col1, .col2, .col3 {
     text-align: justify;
     margin-top: 10px;
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
-.col2 {
-    text-align: justify;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-.col3 {
-    text-align: justify;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
 
 .icon1 {
 text-align: center;
