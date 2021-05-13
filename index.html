@@ -48,8 +48,8 @@
         class="
           navbar navbar-expand-md navbar-expand-lg navbar-dark navbar
           fixed-top
-        "
-      >
+        ">
+        
         <a class="navbar-brand" href="#">
           <img
             src="./assets/img/viajes.svg"
@@ -93,6 +93,8 @@
     </div>
 <!-- Fin del nav -->
 
+<!-- Inicio de header - hero section -->
+
     <header class="container-fluid">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -101,13 +103,13 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active data-interval=2000">
             <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel1.jpg" alt="First slide">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item data-interval=2000">
             <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel2.jpg" alt="Second slide">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item data-interval=2000">
             <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel3.jpg" alt="Third slide">
           </div>
         </div>
@@ -126,9 +128,12 @@
       <h4 id="quienesSomos">¿Quiénes somos?</h4>
       <hr class="linea img-responsive"/>
     </div>
+<!-- Fin de header - hero section -->
 
-    <section>
-    <!-- Columnas de texto -->
+
+
+<!-- Columnas de texto -->
+<section>
       <div class="container">
         <div class="row justify-content-md-center">
 
@@ -159,48 +164,48 @@
       </div>
     </section>
 
-    <!-- Línea horizontal divisoria -->
+<!-- Línea horizontal divisoria -->
     <div class="container">
         <h4 id="destacados">Destacados</h4>
         <hr class="linea"/>
     </div>
 
-    <!-- Sección de tarjetas (CARDs) -->
+<!-- Sección de tarjetas (CARDs) -->
     <section class="container">
         <div class="row">
             <div class="col-sm col-lg">
-      <div class="card-group flex-container">
+              <div class="card-group flex-container">
 
         <!-- Tarjeta 1 -->
-        <div class="card mt-5">
-          <img src="./assets/img/card1.jpg" class="card-img-top" alt="..." />
+        <div class="card card1 mt-5">
+          <img src="./assets/img/card1.jpg" class="card-img-top img-responsive" alt="Card1" />
           <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h5 class="card-title card1txt">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text card1txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
 
         <!-- Tarjeta 2 -->
-        <div class="card mt-5">
-          <img src="./assets/img/card2.jpg" class="card-img-top img-responsive" alt="..." />
+        <div class="card card2  mt-5">
+          <img src="./assets/img/card2.jpg" class="card-img-top img-responsive" alt="Card2" />
           <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h5 class="card-title card2txt">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text card2txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
 
         <!-- Tarjeta 3 -->
-        <div class="card mt-5">
-          <img src="./assets/img/card3.jpg" class="card-img-top img-responsive" alt="..." />
+        <div class="card card3  mt-5">
+          <img src="./assets/img/card3.jpg" class="card-img-top img-responsive" alt="Card3" />
           <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h5 class="card-title card3txt">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text card3txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
 
         <!-- Tarjeta 4 -->
-        <div class="card mt-5">
-            <img src="./assets/img/card4.jpg" class="card-img-top img-responsive" alt="..." />
+        <div class="card card4  mt-5">
+            <img src="./assets/img/card4.jpg" class="card-img-top img-responsive" alt="Card4" />
             <div class="card-body">
             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -213,170 +218,26 @@
 
     <!-- Línea horizontal divisoria -->
     <div class="container">
-      <hr class="linea3" />
+      <hr class="linea"/>
     </div>
 
-    <!-- Sección del carrusel de imágenes -->
-    <div
-      id="blogCarousel"
-      class="container carousel slide"
-      data-ride="carousel"
-    >
-      <h2 class="otrasfotos">Otras fotos mías</h2>
-      <ol class="carousel-indicators">
-        <li
-          data-target="#blogCarousel"
-          data-slide-to="0"
-          class="active avance"
-        ></li>
-        <li data-target="#blogCarousel" data-slide-to="1" class="avance"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active text-center data-interval=2000">
-          <div class="row">
-            <div class="col-3">
-              <img
-                class="image-1"
-                src="./assets/img/slider-1.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="col-3">
-              <img
-                class="image-2"
-                src="./assets/img/slider-2.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="col-3">
-              <img
-                class="image-3"
-                src="./assets/img/slider-3.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="col-3">
-              <img
-                class="image-4"
-                src="./assets/img/slider-4.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-          </div>
-        </div>
+    <h4 id="contacto" class="container">Contacto</h4>
 
-        <div class="carousel-item text-center data-interval=2000">
-          <div class="row">
-            <div class="col-3">
-              <img
-                class="image-5"
-                src="./assets/img/slider-5.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="col-3">
-              <img
-                class="image-6"
-                src="./assets/img/slider-6.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="col-3">
-              <img
-                class="image-7"
-                src="./assets/img/slider-7.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="col-3">
-              <img
-                class="image-8"
-                src="./assets/img/slider-8.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Línea horizontal divisoria -->
-    <div class="container">
-      <hr class="linea4" />
-    </div>
-
-    <h2 class="container contactar">Para contactarme, por email o RRSS:</h2>
-
-    <!-- Formulario de contacto -->
+<!-- Formulario de contacto -->
     <form class="container" action="index.html" method="post">
-      <div
-        class="typeform-widget"
-        data-url="https://patriciolavin.typeform.com/to/FBckfj"
-        style="width: 100%; height: 500px"
-      ></div>
-      <script>
-        (function () {
-          var qs,
-            js,
-            q,
-            s,
-            d = document,
-            gi = d.getElementById,
-            ce = d.createElement,
-            gt = d.getElementsByTagName,
-            id = "typef_orm",
-            b = "https://embed.typeform.com/";
-          if (!gi.call(d, id)) {
-            js = ce.call(d, "script");
-            js.id = id;
-            js.src = b + "embed.js";
-            q = gt.call(d, "script")[0];
-            q.parentNode.insertBefore(js, q);
-          }
-        })();
-      </script>
-      <div
-        style="
-          font-family: Sans-Serif;
-          font-size: 12px;
-          color: #999;
-          opacity: 0.5;
-          padding-top: 5px;
-        "
-      >
-        powered by
-        <a
-          href="https://admin.typeform.com/signup?utm_campaign=FBckfj&utm_source=typeform.com-01DZ78QC0HEN74T3Q3MVK8GKJC-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
-          style="color: #999"
-          target="_blank"
-          >Typeform</a
-        >
-      </div>
+      <div class="typeform-widget" data-url="https://form.typeform.com/to/FBckfj?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </form>
 
-    <!-- Línea horizontal divisoria -->
-    <div class="container">
-      <hr class="linea4" />
-    </div>
-
     <footer>
-      <!-- <a href="" title="Encabezado" data-toggle="popover" data-placement="top" data-content="Contenido en el interior">Este es un popver</a> -->
-
-      <div class="container">
+      <div class="container">   
         <div id="rrss">
           <ul class="flex-item">
-            <li>
+            <li>    
+              <a class="logoText" href="#">VIAJES CHILE</a>
+        
               <a href="https://www.facebook.com/" target="_blank"
                 ><i
-                  class="fab fa-facebook-square fa-3x btn-secondary"
+                  class="fab fa-facebook-square fa-2x"
                   aria-hidden="true"
                   data-toggle="tooltip"
                   data-placement="top"
@@ -388,7 +249,7 @@
             <li>
               <a href="https://twitter.com/" target="_blank"
                 ><i
-                  class="fab fa-twitter-square fa-3x btn-secondary"
+                  class="fab fa-twitter-square fa-2x"
                   aria-hidden="true"
                   data-toggle="tooltip"
                   data-placement="top"
@@ -400,7 +261,7 @@
             <li>
               <a href="https://www.linkedin.com" target="_blank"
                 ><i
-                  class="fab fa-linkedin fa-3x btn-secondary"
+                  class="fab fa-linkedin fa-2x btn-secondary"
                   aria-hidden="true"
                   data-toggle="tooltip"
                   data-placement="top"
@@ -412,7 +273,7 @@
             <li>
               <a href="https://www.instagram.com/" target="_blank"
                 ><i
-                  class="fab fa-instagram fa-3x btn-secondary"
+                  class="fab fa-instagram fa-2x"
                   aria-hidden="true"
                   data-toggle="tooltip"
                   data-placement="top"
@@ -422,20 +283,21 @@
             </li>
 
             <li>
-              <a href="https://www.youtube.com" target="_blank"
+              <a href="https://github.com/patriciolavin/ViajesChile" target="_blank"
                 ><i
-                  class="fab fa-youtube-square fa-3x btn-secondary"
+                  class="fab fa-github-square fa-2x"
                   aria-hidden="true"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="YouTube"
+                  title="GitHub"
                 ></i
               ></a>
+            </div>
             </li>
           </ul>
-        </div>
+   
       </div>
-      <h5>Viajes Chile | © Todos los derechos reservados | 2021</h5>
+
     </footer>
 
     <!-- Llamado a los scripts -->
