@@ -19,8 +19,10 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    margin-bottom: 5rem;
     margin-top: 0;
+    margin-bottom: 5rem;
+    margin-left: 0;
+    margin-right: 0;
     width: auto;
     height: auto;
 }
@@ -184,28 +186,23 @@ div div div ul li {
     background-color: #328998;
 }
 
-.logoText {
-    padding: 5px;
-    float: left;
-    color: #ffffff;
-}
-
 .flex-item li i {
     float: right;
     color: #ffffff;
     margin-right: 20px;
 }
 
-i {
+.logoText {
+    padding: 5px;
+    float: left;
     color: #ffffff;
-    background: none;
 }
 
-@media only screen and (max-width: 576px) {
-    #blogCarousel {
-        display: none;
-    }
 
+
+
+@media only screen and (max-width: 576px) {
+    
     header {
         background-size: contain;
         background-position: top;
@@ -231,6 +228,10 @@ i {
         margin: 30px;
     }
     .carousel-indicators li {
+        display: none;
+    }
+
+    figcaption, .gone {
         display: none;
     }
 }
